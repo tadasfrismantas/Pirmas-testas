@@ -83,14 +83,15 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  align-items: stretch;
-  justify-content: space-around;
-  gap: 30px;
   margin: 20px;
 }
 
 .grid-item-6 {
   display: none;
+}
+
+.nft-logo {
+  padding: 10px;
 }
 
 .Auction {
@@ -221,7 +222,7 @@ span a {
   margin-top: 50px;
 }
 
-.grid-item-7 {
+.grid-item-9 {
   display: grid;
   grid-column: 1/3;
 }
